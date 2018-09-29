@@ -23,3 +23,17 @@ function ternaryCheckCity(city) {
   }
   return response;
 }
+
+function switchOnCharmFromTip(tip) {
+  let response;
+  if (tip === "generous") {
+    response = "Thank you so much.";
+  }
+  else if (tip === "not as generous") {
+    response = "Thank you.";
+  }
+  else {
+    response = "Bye.";
+  }
+  return response;
+}
